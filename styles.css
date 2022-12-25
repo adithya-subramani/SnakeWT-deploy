@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+body {
+  background-color: #060b11;
+  font-family: "Audiowide", sans-serif;
+  color: #1affff;
+}
+.swing-op {
+  position: absolute;
+  overflow: hidden;
+  border: 5px solid #00b3b3;
+  top: 180px;
+  left: 670px;
+  height: 580px;
+}
+.myFrame {
+  position: relative;
+  top: -127px;
+  left: 0px;
+  width: 600px;
+  height: 700px;
+}
+.arrow-cont {
+  position: absolute;
+  top: 200px;
+  left: 1380px;
+}
+.site-head {
+  text-align: center;
+  color: #1affff;
+  font-size: 60px;
+}
+.cont-head {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+.space-key,
+.keys {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+.spc,
+.arr {
+  cursor: pointer;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background: transparent;
+  color: #1affff;
+  font-size: 30px;
+  border: 3px solid #00b3b3;
+  display: inline-block;
+  margin: 5px;
+  transition: all 0.05s linear;
+  user-select: none;
+}
+.arr {
+  width: 100px;
+}
+.spc {
+  width: 400px;
+}
+.spc:active,
+.arr:active {
+  border-bottom: 3px solid #00b3b3;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 20px white;
+  transform: translate(0, 2px);
+}
+.up {
+  position: relative;
+  top: -4px;
+}
+.pressed {
+  border-bottom: 3px solid #00b3b3;
+  text-shadow: 0 0 10px white;
+  transform: translate(0, 2px);
+}
+.names {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+}
+.b {
+  color: blue;
+  text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+  font-size: 100px;
+  font-family: serif;
+}
+.a {
+  color: yellow;
+  text-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow,
+    0 0 10px yellow;
+  font-size: 100px;
+  font-family: serif;
+}
+.instr {
+  position: absolute;
+  line-height: 1.6;
+  display: box;
+  top: 130px;
+  left: 50px;
+  width: 500px;
+}
+.instr h3 {
+  font-size: 40px;
+}
+.instr h5 {
+  font-size: 25px;
+}
+.small-key {
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  border: 3px solid #00b3b3;
+  height: 25px;
+  width: 25px;
+  margin: 7px;
+}
+/* .inst-keys {
+  display: flex;
+} */
