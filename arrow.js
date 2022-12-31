@@ -94,18 +94,6 @@ $(".down").mouseup(function () {
   $(".down").css("transform", "translate(0, 0)");
 });
 
-/*
- * Konami-JS ~
- * :: Now with support for touch events and multiple instances for
- * :: those situations that call for multiple easter eggs!
- * Code: https://konami-js.googlecode.com/
- * Examples: http://www.snaptortoise.com/konami-js
- * Copyright (c) 2009 George Mandis (georgemandis.com, snaptortoise.com)
- * Version: 1.4.2 (9/2/2013)
- * Licensed under the MIT License (https://opensource.org/licenses/MIT)
- * Tested in: Safari 4+, Google Chrome 4+, Firefox 3+, IE7+, Mobile Safari 2.2.1 and Dolphin Browser
- */
-
 var Konami = function (callback) {
   var konami = {
     addEvent: function (obj, type, fn, ref_obj) {
